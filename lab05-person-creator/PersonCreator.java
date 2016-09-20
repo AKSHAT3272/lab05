@@ -23,33 +23,45 @@
        Name=FirstName+ " " + LastName;
     
     }
-    //Method to getAddress
+     /* Purpose: Its a Method to getAddress
+     *Example:Address="132 Earle Hall"
+     */
     public void getAddress(String getAddress)
     {
        Address=getAddress;
     
      }
-    //Method to Define User Age
+    /*Purpose: Its a Method to Define User Age
+    *Example Age=18
+    */
      public void getAge(int SetAge)
      { 
          Age=SetAge;
      }
-     //Method to input Gender
+     /*Purpose: Method to input Gender
+     *Example : sex="Male"
+     */
      public void getSex(String SetSex)
      {
          Sex=SetSex;
      }
-    //  Method to Define Height in Inches
+    /* Purpose : Method to Define Height in Inches
+    *  Example : Height=5.9 inches
+    */
      public void getHeight(double SetHeight)
      {
       Height=SetHeight;
      }
-     // Get User Weight in Pounds
+     /* Purpose : Get User Weight in Pounds
+     * Example Weight=120 Pounds
+     */
      public void getWeight(double SetWeight)
     {
       Weight=SetWeight;
     }
-    //Method with Conditional Statements to Get User's SSN number in Exact Format.
+    /*Purpose: Method with Conditional Statements to Get User's SSN number in Exact Format.
+    * Example: SSN=666-66-6666
+    */
     public void getSSN(int SFirst,int SMiddle,int SLast)
     {    //if Sfirst is bad the Generate a error
         if(SFirst < 0 && SFirst > 999)
@@ -72,7 +84,9 @@
           SSN=SFirst+"-"+SMiddle+"-"+SLast;
         }
      } 
-     //Get User's PhoneNumber 
+     /*Purpose:Get User's PhoneNumber in correct format
+     * Example PhoneNumber=999-999-9999
+     */
       public void getPhone(int PFirst,int PMiddle,int PLast)
     {   //if PFirst is bad the Generate a error
         if(PFirst < 0 && PFirst > 999)
@@ -95,7 +109,9 @@
           Phone=PFirst+"-"+PMiddle+"-"+PLast;
         }
      } 
-     //get user's DOB
+     /*Purpose:Get user's DOB in DD/MM/YYYY format
+     *Example DOB=07/10/1998
+     */
       public void getDOB(int Date,int Month,int Year)
     {    //if Date is wrong the Generate a error
         if(Date < 0 && Date > 31)
@@ -118,7 +134,16 @@
           DOB=Date+"/"+Month+"/"+Year;
         }
      } 
-     //Prints all the details input by the user
+     /*Purpose: Prints all the details input by the user
+     *Example-Akshat
+              Male
+              18 years
+              132 Earle Hall NY 11530
+              5.9 Inches
+              120 Pound
+              333-33-3333
+              888-888-8888
+              07/10/1998
      public void PersonCreator()
      {
          //prints the details of the person
