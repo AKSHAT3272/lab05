@@ -25,6 +25,7 @@
     }
      /* Purpose: Its a Method to getAddress
      *Example:Address="132 Earle Hall"
+     *Here datatype is string which defines user address.
      */
     public void getAddress(String getAddress)
     {
@@ -33,6 +34,7 @@
      }
     /*Purpose: Its a Method to Define User Age
     *Example Age=18
+    *Here datatype is int which defines user Age.
     */
      public void getAge(int SetAge)
      { 
@@ -40,6 +42,7 @@
      }
      /*Purpose: Method to input Gender
      *Example : sex="Male"
+     *Here datatype is string which defines user Sex.
      */
      public void getSex(String SetSex)
      {
@@ -47,6 +50,7 @@
      }
     /* Purpose : Method to Define Height in Inches
     *  Example : Height=5.9 inches
+    * Here datatype is Double which defines user's height in Decimal(Inches)
     */
      public void getHeight(double SetHeight)
      {
@@ -54,6 +58,7 @@
      }
      /* Purpose : Get User Weight in Pounds
      * Example Weight=120 Pounds
+     * Here datatype is double which defines user Weight.
      */
      public void getWeight(double SetWeight)
     {
@@ -61,6 +66,8 @@
     }
     /*Purpose: Method with Conditional Statements to Get User's SSN number in Exact Format.
     * Example: SSN=666-66-6666
+    * Here there is a set of 3 int which defines 3 sets of SSN number and verify it in correct format with conditional statements,
+    * and print it.
     */
     public void getSSN(int SFirst,int SMiddle,int SLast)
     {    //if Sfirst is bad the Generate a error
@@ -86,6 +93,8 @@
      } 
      /*Purpose:Get User's PhoneNumber in correct format
      * Example PhoneNumber=999-999-9999
+     ** Here there is a set of 3 int which defines 3 sets of PhoneNumber number and verify it in correct format with conditional statements,
+     * and print it.
      */
       public void getPhone(int PFirst,int PMiddle,int PLast)
     {   //if PFirst is bad the Generate a error
@@ -111,6 +120,8 @@
      } 
      /*Purpose:Get user's DOB in DD/MM/YYYY format
      *Example DOB=07/10/1998
+     ** Here there is a set of 3 int which defines 3 sets of DOB and verify it in correct format(DD/MM/YYYY) with conditional statements,
+     * and print it.
      */
       public void getDOB(int Date,int Month,int Year)
     {    //if Date is wrong the Generate a error
@@ -134,17 +145,11 @@
           DOB=Date+"/"+Month+"/"+Year;
         }
      } 
-     /*Purpose: Prints all the details input by the user
+     /*Purpose: Prints all the details input by the user in the following program
      *Example-Akshat
               Male
               18 years
-              132 Earle Hall NY 11530
-              5.9 Inches
-              120 Pound
-              333-33-3333
-              888-888-8888
-              07/10/1998
-        */
+     */
      public void PersonCreator()
      {
          //prints the details of the person
