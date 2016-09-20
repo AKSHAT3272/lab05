@@ -8,14 +8,14 @@
  //Class PersonCreator
     public class PersonCreator
    {
-   private String Name,Sex;
-   private String Address;
-   private int Age;
-   private double Height;
-   private double Weight;
-   private String SSN;
-   private String Phone;
-   private String DOB;
+     private String Name,Sex;
+     private String Address;
+     private int Age;
+     private double Height;
+     private double Weight;
+     private String SSN;
+     private String Phone;
+     private String DOB;
 
     //Constructor to initialize user Name
     public PersonCreator(String FirstName,String LastName)
